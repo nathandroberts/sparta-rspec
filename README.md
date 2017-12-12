@@ -1,2 +1,2 @@
 # sparta-rspec
-Repo to learn rspec
+Repo created in order to learn to use rspec
