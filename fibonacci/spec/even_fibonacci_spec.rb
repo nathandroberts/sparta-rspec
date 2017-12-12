@@ -9,11 +9,11 @@ describe Fibonacci do
     expect(@f.even_number(2)).to be(true)
   end
   it "checks for fibbonaci sequence" do
-    @f.fibonacci_generator(1,5)
+    @f.fibonacci_generator(5)
     expect(@f.fibonacci_array).to eq([1,1,2,3,5])
   end
   it "checks for fibbonaci addition of even numbers" do
-    @f.fibonacci_generator(1,6)
+    @f.fibonacci_generator(6)
     expect(@f.even_number_checker).to eq(10)
   end
 

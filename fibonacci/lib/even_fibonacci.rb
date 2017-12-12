@@ -6,8 +6,8 @@ class Fibonacci
   def even_number(num)
     (num % 2).zero?
   end
-  def fibonacci_generator(start_num, end_num)
-    (start_num..end_num).each do |n|
+  def fibonacci_generator(sequence_length)
+    (1..sequence_length).each do |n|
       if n == 1 or n == 2
         @fibonacci_array << 1
       else
