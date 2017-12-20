@@ -8,7 +8,9 @@ From the root folder:
 
 `  rspec --init`
 
-` After tests are created: rspec`
+After tests are created: 
+
+` rspec`
 
 ### Documentation for rspec
 http://www.rubydoc.info/gems/rspec-core/RSpec
