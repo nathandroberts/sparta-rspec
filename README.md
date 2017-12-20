@@ -4,7 +4,9 @@ Repo created in order to learn to use rspec. Unit tests were created for a Fibon
 ### Terminal commands to set up rspec
 ` gem install rspec`
 
-` From the root folder: rspec --init`
+From the root folder:
+
+`  rspec --init`
 
 ` After tests are created: rspec`
 
